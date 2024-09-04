@@ -1,0 +1,55 @@
+/* import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
+
+const Navbar = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#282c34] text-white">
+      <h1 className="text-4xl font-bold mb-2 text-center">Simple Calculator</h1>
+      <h2 className="text-xl font-bold mb-6 text-center">Using JavaScript</h2>
+      <div className="flex flex-col items-center mb-10">
+      <div className="flex space-x-8 ">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <div className="flex space-x-4 mb-2">
+          <FaHtml5 className="text-red-600 text-4xl" />
+          <FaCss3Alt className="text-blue-600 text-4xl" />
+          <FaJsSquare className="text-yellow-500 text-4xl" />
+      </div>
+      <div className="max-w-xs w-full mx-auto bg-black p-4 rounded-lg shadow-lg">
+        <div className="text-right text-3xl mb-4 p-4 bg-white text-black rounded">
+          0
+        </div>
+        <div className="grid grid-cols-4 gap-2">
+          <button className="bg-[#cc6536] p-4 rounded-lg">Off</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">(</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">)</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">/</button>
+
+          <button className="bg-[#6f47b4] p-4 rounded-lg">9</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">8</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">7</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">*</button>
+
+          <button className="bg-[#6f47b4] p-4 rounded-lg">6</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">5</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">4</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">-</button>
+
+          <button className="bg-[#6f47b4] p-4 rounded-lg">3</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">2</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">1</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">+</button>
+
+          <button className="bg-[#ce3e5c] p-4 rounded-lg">Del</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">.</button>
+          <button className="bg-[#6f47b4] p-4 rounded-lg">0</button>
+          <button className="bg-green-500 p-4 rounded-lg text-white">=</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar; */
