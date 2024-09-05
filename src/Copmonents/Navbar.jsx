@@ -1,55 +1,63 @@
 import React from 'react'
-import { FaCss3Alt, FaHtml5, FaJsSquare} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-center items-center min-h-screen bg-gray-300 flex-col'>
-      <h1 className='text-center font-bold m-b2 text-3xl'>Simple Calculator</h1>
-      <h2 className='text-center font-bold m-b2 text-xl pb-2'>Using Javascript</h2>
-     <div className='flex flex-col space-x-4'>
-      <div className='flex space-x-4 gap-2  justify-center items-center text-center'>
-        <span className='font-bold pl-5'>Html</span>
-        <span className='font-bold pl-5'>Css</span>
-        <span className='font-bold pl-5'>Javascript</span>
+    <div className='bg-[#ECEEFA] min-h-screen'>
+      <div className='flex flex-col items-center w-full px-3 xl:flex-row xl:justify-around xl:py-60 py-36 xl:px-20 md:px-2'>
+        <div className='text-[#3a1f5e] flex flex-wrap flex-col xl:items-start md:items-center'>
+        <h1 className='font-extrabold text-5xl md:text-6xl'>Simple</h1>
+        <h2 className='font-extrabold text-5xl md:text-6xl'>Calculator</h2>
+        <p className='font-bold text-3xl md:text-5xl text-[#5e4958]'>Using javascript</p>
+        <div className='flex mt-6 text-black xl:mb-0 mb-6 sm:mb-14'>
+          <div className='flex flex-col items-center justify-center font-extrabold relative left-[13%]'>
+            <h1>CSS</h1>
+            <div>
+              <img className='w-[75px] md:w-[100px]' src="css.png" alt="" />
+            </div>
+          </div>
+          <div className='flex flex-col items-center justify-center font-extrabold relative z-10'>
+            <h1>HTMl</h1>
+            <div>
+              <img className='w-[100px] md:w-[130px]' src="html.png" alt="" />
+            </div>
+          </div>
+          <div className='flex flex-col items-center justify-center font-extrabold relative right-[11%]'>
+            <h1>js</h1>
+            <div>
+              <img className='w-[75px] md:w-[100px]' src="js.png" alt="" />
+            </div>
+          </div>
+          </div>
+          </div>
+      <div className='w-[240px] md:w-[300px] lg:w-[330px] flex flex-col items-center bg-[#391c5a] py-7 px-2 rounded-lg shadow-black lg-w]'>
+        <div className='w-[90%] h-[55px] px-2 mb-8 font-normal flex justify-end items-center text-black bg-[#eceefa] rounded-sm text-lg'></div>
+      
+      <div className='flex flex-wrap items-center justify-center gap-4'>
+        <div className='px-[5%]  bg-[#CC6530] p-[4%] rounded-md  text-white font-bold cursor-pointer shadow-md shadow-white'>Off</div>
+        <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>(</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>)</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>/</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>9</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>8</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>7</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>*</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>6</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>5</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>4</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>+</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>3</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>2</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>1</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>-</div>
+          <div className='px-[5%]   bg-[#CE3E5C]  p-[4%] rounded-md text-white font-bold cursor-pointer shadow-md shadow-white'>Del</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>.</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>0</div>
+          <div className='px-[7%]   p-[4%] rounded-md bg-[#6f47be] text-white font-bold cursor-pointer shadow-md shadow-white'>=</div>
       </div>
-      <div className='flex space-x-4 gap-4 pb-4'>
-      <FaHtml5 className='text-red-600 text-5xl flex'/>
-      <FaCss3Alt className='text-blue-600 text-5xl'/>
-      <FaJsSquare className='text-yellow-600 text-5xl'/>
       </div>
-     </div>
-    <div className='bg-black rounded-lg p-2'>
-     <div className='max-w-lg mx-auto bg-black w-full p-4 rounded-lg shadow-lg'>
-      <div className='bg-white text-right text-3xl mb-4 p-4 text-black rounded'>0</div>
-     </div>
-    <div className='grid grid-cols-4 gap-2 md-grid-col-2 rounded-lg'>
-      <button className='bg-[#cc6536] rounded p-4'>oFF</button>
-      <button className='bg-[#6f47be] rounded p-4'>(</button>
-      <button  className='bg-[#6f47be] rounded p-4'>)</button>
-      <button  className='bg-[#6f47be] rounded p-4'>/</button>
-
-      <button  className='bg-[#6f47be] rounded p-4'>9</button>
-      <button  className='bg-[#6f47be] rounded p-4'>8</button>
-      <button  className='bg-[#6f47be] rounded p-4'>7</button>
-      <button  className='bg-[#6f47be] rounded p-4'>*</button>
-
-      <button  className='bg-[#6f47be] rounded p-4'>6</button>
-      <button  className='bg-[#6f47be] rounded p-4'>5</button>
-      <button className='bg-[#6f47be] rounded p-4'>3</button>
-      <button  className='bg-[#6f47be] rounded p-4'>-</button>
-
-      <button  className='bg-[#6f47be] rounded p-4'>3</button>
-      <button  className='bg-[#6f47be] rounded p-4'>2</button>
-      <button  className='bg-[#6f47be] rounded p-4'>1</button>
-      <button  className='bg-[#6f47be] rounded p-4'>+</button>
-
-      <button  className='bg-[#ce3e5c] rounded p-4'>Del</button>
-      <button  className='bg-[#6f47be] rounded p-4'>.</button>
-      <button  className='bg-[#6f47be] rounded p-4'>0</button>
-      <button  className='bg-[#6f47be] rounded p-4'>=</button>
     </div>
     </div>
-    </div>
+   
   )
 }
 
