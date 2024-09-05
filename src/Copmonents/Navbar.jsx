@@ -12,19 +12,19 @@ const Navbar = () => {
           <div className='flex flex-col items-center justify-center font-extrabold relative left-[13%]'>
             <h1>CSS</h1>
             <div>
-              <img className='w-[75px] md:w-[100px]' src="css.png" alt="" />
+              <img className='w-[75px] md:w-[100px]' src='images/Css.png' alt="" />
             </div>
           </div>
           <div className='flex flex-col items-center justify-center font-extrabold relative z-10'>
             <h1>HTMl</h1>
             <div>
-              <img className='w-[100px] md:w-[130px]' src="html.png" alt="" />
+              <img className='w-[100px] md:w-[130px]' src='images/html.png' alt="" />
             </div>
           </div>
           <div className='flex flex-col items-center justify-center font-extrabold relative right-[11%]'>
             <h1>js</h1>
             <div>
-              <img className='w-[75px] md:w-[100px]' src="js.png" alt="" />
+              <img className='w-[75px] md:w-[100px]' src='images/js.png' alt="" />
             </div>
           </div>
           </div>
